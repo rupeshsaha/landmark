@@ -1,0 +1,37 @@
+/* Rocket Scroll Animation Styles */
+.rocket-scroll-container {
+  position: relative;
+}
+
+.guide-line {
+  width: calc(100% - 150px);
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mil-rocket-scroll {
+  width: 150px;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.mil-rocket-scroll img {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.mil-rocket-scroll:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .rocket-scroll-container {
+    display: none;
+  }
+}
