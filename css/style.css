@@ -857,6 +857,60 @@ a {
   position: relative;
 }
 
+.community-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+  bottom: 10px;
+  align-self: center;
+  position: absolute;
+}
+
+.community-header {
+  padding: 40px 60px;
+  border-radius: 16px;
+    background: rgba(0, 0, 0, 0.137); /* semi-transparent visible layer */
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.community-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.community-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.community-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.community-list li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #fff;
+}
+
+
 .mil-banner .mil-banner-slider-2 {
   height: 100%;
 }
