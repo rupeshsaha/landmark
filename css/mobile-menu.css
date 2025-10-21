@@ -69,6 +69,54 @@
   padding: 0px 10px;
   gap:5px
 }
+
+/* About page */
+
+.mil-illustration-slider-nav {
+display: none;
+
+}
+
+.mil-illustration-slider-nav-mobile{
+  position: absolute;
+  z-index: 1;
+  bottom: 45%;
+  right: 0;
+  width: 100%;
+
+}
+
+.mil-nav-buttons{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+
+.mil-illustration-prev, .mil-illustration-next {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4); /* translucent black */
+  color: white; /* icon or text stays bright */
+  backdrop-filter: blur(4px); /* smooths image behind */
+  transition: background 0.2s ease;
+}
+
+.mil-illustration-prev:hover, .mil-illustration-next:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.mil-illustration-prev.swiper-button-disabled, .mil-illustration-next.swiper-button-disabled {
+  visibility: hidden;
+}
+
+
+
+
+
 }
 
 
