@@ -40,3 +40,12 @@ svg#us-map {
   display: none;
   transition: opacity 0.15s;
 }
+
+@media (max-width:768px) {
+  svg#us-map {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+  
+}

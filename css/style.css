@@ -771,6 +771,16 @@ a {
   background-color: var(--accent-color);
 }
 
+#more-btn-mobile{
+  display: none;
+}
+
+
+.mil-flex-box{
+  display: flex;
+  justify-content: space-around;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -1989,6 +1999,13 @@ footer .mil-logo {
   background: #fff;
 }
 
+.mil-mtah{
+  display: block;
+}
+.mil-mtah-mob{
+  display: none;
+}
+
 .mil-hover-images {
   position: relative;
   width: 100%;
@@ -3182,4 +3199,11 @@ footer .mil-logo {
   .mil-illustration.mil-up {
     margin-bottom: 2rem !important;
   }
+}
+
+.container.portfolio-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap:20px
 }

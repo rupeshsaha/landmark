@@ -101,7 +101,7 @@
       <!-- banner end -->
 
       <!-- about -->
-      <section>
+      <section id="mil-home-about">
         <div class="container mil-p-0-30">
           <div class="mil-softened"></div>
           <div class="row mil-mb-60" style="row-gap: 20px">
@@ -141,7 +141,7 @@
           <div class="row justify-content-between align-items-center flex-sm-row-reverse">
             <div class="col-lg-5">
               <div class="mil-mb-90">
-                <img src="img/photo/more-than-a-home.png" alt="image" class="mil-scale mil-hover-images"
+                <img src="img/photo/more-than-a-home.png" alt="image" class="mil-scale mil-hover-images mil-mtah"
                   data-value-1="0.8" data-value-2="1" />
                 <span class="mil-suptitle mil-upper mil-up mil-mb-30">About Landmark</span>
                 <h2 class="mil-upper mil-up mil-mb-30">Who We Are</h2>
@@ -164,6 +164,8 @@
             </div>
             <div class="col-lg-6">
               <div class="mil-illustration mil-up mil-mb-90">
+                 <img src="img/photo/more-than-a-home.png" alt="image" class="mil-scale mil-hover-images mil-mtah-mob"
+                  data-value-1="0.8" data-value-2="1" />
                 <div class="mil-image-frame">
                   <img src="img/photo/2.jpg" alt="image" style="object-fit: contain" />
                 </div>
@@ -191,10 +193,12 @@
             <div class="col-lg-6">
               <div>
                 <span class="mil-suptitle mil-upper mil-up mil-mb-30">Landmark Purpose</span>
-                <h2 class="mil-upper mil-up mil-mb-40">Our Mission</h2>
-                <a href="about.html" class="mil-link mil-upper mil-up">More About Us
+                <h2 class="mil-upper mil-up mil-mb-10">Our Mission</h2>
+                <a href="about.html" class="mil-link mil-upper mil-up" id="more-btn">More About Us
                   <span class="mil-arrow">
-                    <i data-lucide="arrow-right" style="color: white"></i> </span></a>
+                    <i data-lucide="arrow-right" style="color: white"></i> 
+                  </span>
+                  </a>
               </div>
             </div>
             <div class="col-lg-5 mil-mt-suptitle-offset">
@@ -205,7 +209,7 @@
                 communities.
               </p>
 
-              <div class="row">
+              <div class="mil-flex-box">
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                   <div class="mil-icon-box mil-sm-center mil-mb-30">
                     <div class="mil-icon mil-icon-accent-bg mil-up mil-mb-30">
@@ -231,6 +235,11 @@
                   </div>
                 </div>
               </div>
+                <a href="about.html" class="mil-link mil-upper mil-up" id="more-btn-mobile">More About Us
+                  <span class="mil-arrow">
+                    <i data-lucide="arrow-right" style="color: white"></i> 
+                  </span>
+                  </a>
             </div>
           </div>
         </div>
@@ -253,7 +262,7 @@
                 <div class="mb-5 sm-mb-0">
                   <h2 class="mil-upper mil-up mil-mb-30">Our Journey</h2>
 
-                  <a href="about.html" class="mil-link mil-upper mil-up" style="color: white">Learn More
+                  <a href="about.html" class="mil-link mil-upper mil-up" id="more-btn" style="color: white">Learn More
                     <span class="mil-arrow">
                       <i data-lucide="arrow-right"></i> </span></a>
                 </div>
@@ -284,6 +293,9 @@
                   <div class="mil-img-wrapper mil-mb-30">
                     <img src="img/photo/2.jpg" alt="image" />
                   </div>
+                   <a href="about.html" class="mil-link mil-upper mil-up" id="more-btn-mobile" style="color: white">Learn More
+                    <span class="mil-arrow">
+                      <i data-lucide="arrow-right"></i> </span></a>
                 </div>
               </div>
             </div>
@@ -315,7 +327,7 @@
                   respectfully, and with integrity while delivering
                   outstanding outcomes for those we serve.
                 </p>
-                <a href="/about.html" class="mil-link mil-light mil-upper mil-up">Learn More
+                <a href="/about.html" class="mil-link mil-light mil-upper mil-up" id="more-btn">Learn More
                   <span class="mil-arrow">
                     <i data-lucide="arrow-right"></i> </span></a>
               </div>
@@ -347,6 +359,9 @@
                   <h6 class="mil-upper mil-light">Execute with Passion</h6>
                 </div>
               </div>
+               <a href="/about.html" class="mil-link mil-light mil-upper mil-up" id="more-btn-mobile">Learn More
+                  <span class="mil-arrow">
+                    <i data-lucide="arrow-right"></i> </span></a>
             </div>
           </div>
         </div>
@@ -363,12 +378,7 @@
           <svg id="us-map" class="mil-p-0-120" viewBox="0 0 975 610"></svg>
           <div id="map-tooltip" style="pointer-events: none"></div>
 
-          <div class="container portfolio-grid" style="
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 1fr 1fr;
-                gap: 20px;
-              ">
+          <div class="container portfolio-grid">
             <div>
               <a href="/new-mexico.html" class="mil-portfolio-item mil-square-item mil-up">
                 <img src="img/covers/mexico.jpg" alt="cover" style="height: 100%; object-fit: cover" />
@@ -439,7 +449,7 @@
       <!-- portfolio end -->
 
       <!-- recruit -->
-      <section class="mil-p-90-90">
+      <section class="mil-p-0-60">
         <div class="container">
           <div class="mil-softened"></div>
           <div class="row justify-content-between align-items-center flex-sm-row-reverse">
@@ -454,7 +464,7 @@
                   professionals to join us in delivering our "More Than a
                   Home" experience
                 </p>
-                <a href="/careers.html" class="mil-button mil-upper mil-up">Career Opportunities</a>
+                <a href="/careers.html" class="mil-button mil-upper mil-up " id="more-btn">Career Opportunities</a>
               </div>
             </div>
             <div class="col-lg-6">
@@ -470,6 +480,7 @@
                   <h5 class="mil-upper">Join Our Team</h5>
                 </div>
               </div>
+              <a href="/careers.html" class="mil-button mil-upper mil-up " id="more-btn-mobile" style="margin-top: 60px; margin-bottom: 30px;">Career Opportunities</a>
             </div>
           </div>
         </div>
@@ -477,7 +488,7 @@
       <!-- recruit end -->
 
       <!-- footer -->
-      <footer class="mil-relative mil-p-30-0 d-flex flex-column" style="background-color: #326295">
+      <footer class="mil-relative  d-flex flex-column" style="background-color: #326295">
         <div class="row justify-content-center mb-5">
           <a href="/" class="mil-logo mil-footer-logo mil-up d-flex justify-content-center">
             <img src="img/logo.png" alt="Landmark Logo" />
@@ -514,6 +525,7 @@
             <a href="/kansas.html" class="mil-text-sm mil-up mil-light-soft">Kansas</a>
             <a href="/missouri.html" class="mil-text-sm mil-up mil-light-soft">Missouri</a>
             <a href="/illinois.html" class="mil-text-sm mil-up mil-light-soft">Illinois</a>
+          </ul>
           </div>
           <div class="col-6 col-md-3 d-flex flex-column">
             <span class="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Cities</span>
@@ -630,11 +642,11 @@
 
         <div class="container-fluid mil-up">
           <div class="mil-footer-bottom">
-            <p class="mil-light-soft mil-mb-15">
+            <p class="mil-light-soft mil-mb-15" style="align-self: center;order: 3;">
               © 2024. All rights reserved.
             </p>
 
-            <ul class="mil-light-soft mil-mb-15">
+            <ul class="mil-light-soft mil-mb-15" style="align-self: center;order: 2;">
               <li><a href="/terms.html">Terms of Use</a></li>
               <li><a href="/privacy.html">Privacy Policy</a></li>
               <li>
@@ -642,7 +654,7 @@
               </li>
             </ul>
 
-            <img class="mil-mb-15" src="img/equal-housing-opportunity.png" alt="Equal Housing Opportunity" />
+            <img class="mil-mb-15" src="img/equal-housing-opportunity.png" style="order:1; align-self: center;" alt="Equal Housing Opportunity" />
           </div>
         </div>
       </footer>

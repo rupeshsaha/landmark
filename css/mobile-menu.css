@@ -28,8 +28,57 @@
 @media (max-width: 768px) {
   .mil-mobile-menu-btn {
     display: block;
+    padding: 0;
   }
+  .container-fluid{
+    padding: 0px 10px;
+  }
+  .mil-logo img {
+  width: 250px;
 }
+.mil-top-panel .mil-top-panel-content{
+  height: 60px;
+}
+.mil-wrapper{
+  padding-top: 60px;
+}
+.mil-mb-90{
+  margin-bottom: 40px;
+}
+.mil-mtah{
+  display: none;
+}
+.mil-mtah-mob{
+  display: block;
+}
+
+#more-btn-mobile{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  
+}
+#more-btn{
+  display: none ;
+}
+#mil-home-about{
+  margin-bottom: 40px;
+}
+
+.container.portfolio-grid{
+  padding: 0px 10px;
+  gap:5px
+}
+}
+
+
+
+
+
+
+
+
+
 
 /* Hamburger icon */
 .mil-hamburger-icon {
