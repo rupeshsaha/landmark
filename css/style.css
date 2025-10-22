@@ -3287,11 +3287,11 @@ footer .mil-logo {
   }
 
   .hero-overlay-1{
-  width: 70%
+  width: 70% !important 
 }
 
 .hero-overlay-2{
-  width: 80%
+  width: 80% !important 
 }
 }
 
