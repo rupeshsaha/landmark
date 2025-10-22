@@ -3271,6 +3271,7 @@ footer .mil-logo {
     height: auto;
     object-fit: cover;
     display: block;
+    object-position: center;
   }
 
   .mil-project-descr {
