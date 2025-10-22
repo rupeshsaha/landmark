@@ -3281,6 +3281,10 @@ footer .mil-logo {
   #portfolio-long-img{
     object-position: bottom;
     }
+
+  .hero-vdo{
+    height: 75vh;
+  }
 }
 
 .container.portfolio-grid{
