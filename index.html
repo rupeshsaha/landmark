@@ -78,9 +78,9 @@
     <!-- content -->
     <div id="content">
       <!-- banner -->
-      <section class="mil-mb-90" style="position: relative">
+      <section class="mil-mb-90" style="position: relative; overflow: hidden">
         <!-- Video Section -->
-        <video autoplay muted loop playsinline data-value-1=".4" data-value-2="1.4" style="width: 100%">
+        <video autoplay muted loop playsinline data-value-1=".4" data-value-2="1.4" class="hero-vdo" style="width: 100%; object-fit:cover; display:block">
           <source src="img/video/hero-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -92,6 +92,7 @@
               justify-content: space-between;
               align-items: center;
               padding-bottom: 20px;
+              z-index:10;
             ">
           <img src="/img/photo/more-than-a-home-white.png" alt="" style="width: 40%" />
           <img src="/img/photo/proudly-2.png" alt="" style="width: 50%" />
