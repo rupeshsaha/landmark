@@ -71,7 +71,7 @@
 }
 
 #us-map, #map-tooltip{
-  display: none
+  display: none ! important 
 }
 
 /* About page */
