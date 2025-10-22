@@ -70,6 +70,10 @@
   gap:5px
 }
 
+#us-map, #map-tooltip{
+  display: none
+}
+
 /* About page */
 
 .mil-illustration-slider-nav {
