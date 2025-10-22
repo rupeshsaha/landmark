@@ -3277,6 +3277,10 @@ footer .mil-logo {
   .mil-project-descr {
     padding: 10px 15px;
   }
+
+  #portfolio-long-img{
+    object-position: bottom;
+    }
 }
 
 .container.portfolio-grid{
