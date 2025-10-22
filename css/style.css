@@ -3255,6 +3255,29 @@ footer .mil-logo {
   }
 }
 
+@media (max-width: 768px) {
+  .container.portfolio-grid {
+    display: block !important; /* remove grid */
+  }
+
+  .container.portfolio-grid > div {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+
+  .container.portfolio-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .mil-project-descr {
+    padding: 10px 15px;
+  }
+}
+
 .container.portfolio-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
