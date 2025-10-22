@@ -3285,6 +3285,22 @@ footer .mil-logo {
   .hero-vdo{
     height: 75vh;
   }
+
+  .hero-overlay-1{
+  width: 70%
+}
+
+.hero-overlay-2{
+  width: 80%
+}
+}
+
+.hero-overlay-1{
+  width: 40%
+}
+
+.hero-overlay-2{
+  width: 50%
 }
 
 .container.portfolio-grid{
